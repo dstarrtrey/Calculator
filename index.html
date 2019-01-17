@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator WIP</title>
+  
+  
+  
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<div id='container' class="other">  
+  <div id='title'>Very Cool Calculator™®℠</div>
+  <div id='screen'>
+    <div id="currentNum">0</div>
+    <div id="history"></div>
+  </div>
+  <div class='row'>
+  <button class='topRow button' onclick="clearHistory();">AC</button>
+  <button class='topRow button' onclick="clearCurrentNum();">CE</button>
+  </div>
+  <div class='row'>
+    <button value='7' class='num sameSize button' onclick="append(7);">7</button>
+    <button value='8' class='num sameSize button' onclick="append(8);">8</button>
+    <button value='9' class='num sameSize button' onclick="append(9);">9</button>
+    <button value='÷' class='sameSize button' onclick="append('/')">÷</button>
+  </div>
+  <div class='row'>
+    <button value='4' class='num sameSize button' onclick="append(4)">4</button>
+    <button value='5' class='num sameSize button' onclick="append(5)">5</button>
+    <button value='6' class='num sameSize button' onclick="append(6)">6</button>
+    <button value='×' onclick="append('*')" class='sameSize button'>×</button>
+  </div>
+  <div class='row'>
+    <button value='1' class='num sameSize button' onclick="append(1)">1</button>
+    <button value='2' class='num sameSize button' onclick="append(2)">2</button>
+    <button value='3' class='num sameSize button' onclick="append(3)">3</button>
+    <button value='−' class='sameSize button' onclick="append('-')">−</button>
+  </div>
+  <div class='row'>
+    <button value='0' class='num sameSize button' onclick="append(0)">0</button>
+    <button value='.' class='num sameSize button dot' onclick="append('.')">. </button>
+    <button value='=' class='sameSize button' onclick="solve()">=</button>
+    <button value='+' class='sameSize button' onclick="append('+')">+</button>
+  </div>
+</div>
+  
+  
+
+    <script  src="index.js"></script>
+
+
+
+
+</body>
+
+</html>

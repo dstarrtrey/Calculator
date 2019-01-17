@@ -1,0 +1,80 @@
+#history{
+  white-space: nowrap;
+}
+li {
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+#title{
+  font-family: 'Share Tech Mono', monospace;
+  font-size:1.3em;
+  font-weight: bold;
+}
+.sameSize{
+  padding: 0.05em .395em;
+}
+#currentNum{
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 2.71em;
+}
+#history{
+  font-family: 'Share Tech Mono', monospace;
+}
+#container{
+  background-color: #BDBDBD;
+  border: .2em solid black;
+  border-radius: 2em;
+  width: 520px;
+  margin: auto;
+  padding: 0em 0.5em 0.8em 0.5em;
+  box-shadow: 0 2pt 3pt 3pt #263238;
+}
+.topRow{
+  padding: 0.05em 0.86em;
+}
+.row{
+  text-align: center;
+  margin-bottom: 1%;
+}
+#screen{
+  background-color: #F5F5F5;
+  text-align: right;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1.7em;
+  margin-left: 1.7em;
+  height: 5em;
+  border-radius: 10px;
+  border: 4px solid #263238;
+  padding: 1em;
+}
+#title{
+  margin-top: 1em;
+  text-align: center;
+}
+button{  
+    font-family: 'Share Tech Mono', monospace;
+       background-color: #78909C; 
+    border-radius: 10px;
+    border-bottom: 4px solid #263238;
+    color: white;
+    padding:0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button{
+  font-size: 5em;
+  transition: background-color .4s;
+}
+.button:active{
+  border-color: #455A64;
+}
+.button:hover{
+  background-color: #455A64;
+}
